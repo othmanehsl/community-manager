@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Othmane Houasli</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Othmane Houasli" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Othmane Houasli">Othmane Houasli</h1>
+
+          <p class="title">Chargé de Communication</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span></span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+      
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <a href="https://www.linkedin.com/in/othmane-houasli" target="_blank">
+              <div class="icon-box">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+            </a>
+      
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+      
+              <a href="https://www.linkedin.com/in/othmane-houasli" class="contact-link" target="_blank" rel="noopener noreferrer">Othmane Houasli</a>
+            </div>
+      
+          </li>
+      
+          <li class="contact-item">
+
+            <a href="https://github.com/othmanehsl" target="_blank">
+              <div class="icon-box">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+            </a>
+      
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+      
+              <a href="https://github.com/othmanehsl" class="contact-link" target="_blank" rel="noopener noreferrer">othmanehsl</a>
+            </div>
+      
+          </li>
+      
+          <li class="contact-item">
+
+            <a href="mailto:othmane.houasli.contact@gmail.com" target="_blank">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+            </a>
+      
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:othmane.houasli.contact@gmail.com" class="contact-link">othmane.houasli.contact<br class="desktop-only">@gmail.com</a>
+              </div>
+      
+          </li>
+      
+          <li class="contact-item">
+      
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+      
+            <div class="contact-info">
+              <p class="contact-title">Localisation</p>
+      
+              <address>Troyes, France</address>
+            </div>
+      
+          </li>
+      
+        </ul>
+      </div>
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Profil</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CV</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contactez-moi</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="profil">
+        <header>
+          <h2 class="h2 article-title">Profil</h2>
+        </header>
+      
+        <section class="about-text">
+          <p>
+            Actuellement en 3e année de BUT MMI (Métiers du Multimédia et de l'Internet) à l'IUT de Troyes, je suis passionné par la communication et le marketing digital. Grâce à ma formation, j’ai acquis des compétences solides en création de contenus éditoriaux et visuels, en gestion de projets de communication ainsi qu’en design graphique. Je maîtrise les outils de la suite Adobe et les réseaux sociaux, et je suis capable de concevoir des supports de communication adaptés et efficaces.
+          </p>
+        </section>
+      
+        <!-- Nouvelle section -->
+        <section class="service">
+          <h3 class="h3 service-title">Plus sur moi</h3>
+      
+          <div class="tabs-navigation">
+            <button class="tab-btn active" data-tab-btn="skills">Compétences principales</button>
+            <button class="tab-btn" data-tab-btn="languages">Langues</button>
+          </div>
+      
+          <div class="tabs-content">
+            <!-- Compétences principales -->
+            <div class="content-card active" data-tab-content="skills">
+              <ul class="service-list">
+            
+            
+                <li class="service-item">
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Création de supports de communication</h4>
+                    <div class="skill-icons">
+                      <img src="assets/images/about/adobe-photoshop.svg" alt="Photoshop">
+                      <img src="assets/images/about/adobe-illustrator.svg" alt="Illustrator">
+                      <img src="assets/images/about/indesign.png" alt="InDesign">
+                      <img src="assets/images/about/figma.png" alt="Figma">
+                    </div>
+                    <p class="service-item-text">
+                      Conception et réalisation de supports visuels variés (flyers, brochures, présentations, contenus digitaux) en suivant une charte graphique et des objectifs définis.
+                    </p>
+                  </div>
+                </li>
+            
+                <li class="service-item">
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">UX/UI Design</h4>
+                    <div class="skill-icons">
+                      <img src="assets/images/about/figma.png" alt="Figma">
+                      <img src="assets/images/about/google-analytics.webp" alt="Analytics">
+                      <img src="assets/images/about/canva.svg" alt="Canva">
+                    </div>
+                    <p class="service-item-text">
+                      Conception d’interfaces intuitives et ergonomiques centrées sur l’utilisateur, avec une attention particulière portée à l’expérience utilisateur (UX) et à l’esthétique (UI).
+                    </p>
+                  </div>
+                </li>
+
+                <li class="service-item">
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Stratégie de communication</h4>
+                    <div class="skill-icons">
+                      <img src="assets/images/about/strategy.png" alt="Stratégie">
+                      <img src="assets/images/about/branding.png" alt="Branding">
+                      <img src="assets/images/about/content-creation.png" alt="Création de contenu">
+                    </div>
+                    <p class="service-item-text">
+                      Élaboration et mise en œuvre de stratégies de communication adaptées à la cible et aux objectifs de l’entreprise, en développant des contenus engageants et cohérents avec l’identité de marque.
+                    </p>
+                  </div>
+                </li>
+            
+                <li class="service-item">
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Intégration web</h4>
+                    <div class="skill-icons">
+                      <img src="assets/images/about/html.svg" alt="HTML">
+                      <img src="assets/images/about/css.svg" alt="CSS">
+                      <img src="assets/images/about/scss.svg" alt="SCSS">
+                      <img src="assets/images/about/js.svg" alt="JavaScript">
+                    </div>
+                    <p class="service-item-text">
+                      Intégration de maquettes en utilisant des technologies modernes (HTML, CSS, SCSS, JavaScript) et en respectant les bonnes pratiques du web, telles que le responsive design.
+                    </p>
+                  </div>
+                </li>
+            
+              </ul>
+            </div>
+            
+      
+      
+            <!-- Langues -->
+            <div class="content-card" data-tab-content="languages">
+              <ul class="service-list">
+                <li class="service-item">
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Français</h4>
+                    <p class="service-item-text">Bilingue</p>
+                  </div>
+                </li>
+                <li class="service-item">
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Anglais</h4>
+                    <p class="service-item-text">Compétence professionnelle</p>
+                  </div>
+                </li>
+                <li class="service-item">
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Arabe</h4>
+                    <p class="service-item-text">Langue maternelle</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="cv">
+
+        <header>
+          <h2 class="h2 article-title">CV</h2>
+          <!-- Ajouter le bouton de téléchargement ici -->
+          <a href="./assets/pdf/CV.pdf" class="download-cv" target="_blank">
+            <ion-icon name="document-text-outline"></ion-icon>
+            <span class="download-text">Mon CV</span>
+            <span class="download-overlay"></span>
+          </a>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Éducation</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">BUT MMI (Métiers de Multimédia et de l'Internet)</h4>
+              
+              <p class="timeline-school">IUT de Troyes - Université de Reims Champagne-Ardenne</p>
+                      
+              <p class="timeline-text">
+                3ᵉ année (En cours)
+              </p>
+
+              <span>2022 — 2025</span>
+            </li>
+          
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Baccalauréat Scientifique</h4>
+              
+              <p class="timeline-school">Lycée la Victoire</p>
+                      
+              <p class="timeline-text">
+                Mention bien
+              </p>
+              <span>2021 — 2022</span>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Expériences Professionnelles</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Stage en Métiers du web</h4>
+            
+              <p class="timeline-school">AJMC
+                <span class="company-location">
+                  <ion-icon name="location-outline"></ion-icon>
+                  Troyes, France
+                </span>
+              </p>
+                        
+              <div class="timeline-text">
+                <ul class="experience-list">
+                  <li>Contribution active au développement et à
+                    la maintenance d’un site web sous
+                    WordPress, avec un focus spécifique sur
+                    l’optimisation technique pour améliorer la
+                    performance.
+                    </li>
+                  <li>Conception et implémentation d’une
+                    plateforme LMS pour la gestion de cours
+                    en ligne, répondant aux besoins
+                    pédagogiques de l’entreprise.</li>
+                  <li>Rédaction et optimisation de contenus
+                    pour le web en appliquant des stratégies
+                    avancées de SEO on-page.
+                    </li>
+                </ul>
+              </div>
+              <span>05/2024 - 07/2024</span>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Stagiaire SEO & Marketing Digital</h4>
+            
+              <p class="timeline-school">
+                HDM Network 
+                <span class="company-location">
+                  <ion-icon name="location-outline"></ion-icon>
+                  Charleroi, Belgique (Hybride)
+                </span>
+              </p>
+            
+              <div class="timeline-text">
+                <ul class="experience-list">
+                  <li>Optimisation avancée de contenus
+                    numériques via des techniques de SEO
+                    on-page et une gestion stratégique des
+                    mots-clés.
+                    
+                    </li>
+                  <li>Création et planification de contenus
+                    éditoriaux engageants adaptés aux
+                    différentes plateformes sociales.
+                    </li>
+                  <li>•Analyse et suivi des performances web à
+                    l’aide de Google Analytics, avec
+                    élaboration de recommandations
+                    stratégiques basées sur les données.
+                    </li>
+                </ul>
+              </div>
+              <span>07/2023 - 08/2023</span>
+            </li>
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+<!-- PORTFOLIO -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Tous</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Création numérique</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Graphisme</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Selectionnez une catégorie</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Tous</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Création numérique</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Graphisme</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="création numérique">
+              <div class="project-card">
+                <figure class="project-img">
+                  <img src="./assets/images/projects/design_system1.svg" alt="finance" loading="lazy">
+                  <div class="project-overlay">
+                    <h3 class="project-title">Sortir dans l'Aube</h3>
+                    <p class="project-category">Charte graphique</p>
+
+                  </div>
+                </figure>
+                
+                <div class="project-links">
+                  <a href="https://www.figma.com/file/0rj1tbPeUb2KuLFkJJtUbW/wr309?type=design&node-id=0%3A1&mode=design&t=5AYTJ5DjAIcuVTww-1" class="project-link demo" target="_blank" rel="noopener">
+                    <ion-icon name="logo-figma"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+
+            <li class="project-item active" data-filter-item data-category="création numérique">
+              <div class="project-card">
+                <!-- Image du projet -->
+                <figure class="project-img">
+                  <img src="./assets/images/projects/design_system2.jpg" alt="orizon" loading="lazy">
+                  <div class="project-overlay">
+                    <h3 class="project-title">TripIn</h3>
+                    <p class="project-category">Charte graphique</p>
+                  </div>
+                </figure>
+                
+                <!-- Liens du projet -->
+                <div class="project-links">
+                  <a href="https://www.figma.com/file/Rh1cPLEv00yuzRKX6M1f9P/TripIn?type=design&node-id=0%3A1&mode=design&t=9YpXixuON7UsFMXm-1" class="project-link demo" target="_blank" rel="noopener">
+                    <ion-icon name="logo-figma"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="création numérique">
+              <div class="project-card">
+                <!-- Image du projet -->
+                <figure class="project-img">
+                  <img src="./assets/images/projects/design_system3.jpg" alt="fundo" loading="lazy">
+                  <div class="project-overlay">
+                    <h3 class="project-title">AJMC</h3>
+                    <p class="project-category">Charte Graphique</p>
+                  </div>
+                </figure>
+                
+                <!-- Liens du projet -->
+                <div class="project-links">
+                  <a href="https://www.figma.com/design/GgNr4t5wLGti11WKvex2B3/AJMC?node-id=303-75&t=RzmxyYcMQygVVRzH-0" class="project-link demo" target="_blank" rel="noopener">
+                    <ion-icon name="logo-figma"></ion-icon>
+                  </a>
+                  <a href="https://othmane.net/ajmc/" class="project-link demo" target="_blank" rel="noopener">
+                    <ion-icon name="globe-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <div class="project-card">
+                <!-- Image du projet -->
+                <figure class="project-img">
+                  <img src="./assets/images/projects/komola.jpg" alt="brawlhalla" loading="lazy">
+                  <div class="project-overlay">
+                    <h3 class="project-title">KOMOLA</h3>
+                    <p class="project-category">Web Design - Front end</p>
+                  </div>
+                </figure>
+                
+                <!-- Liens du projet -->
+                <div class="project-links">
+                  <a href="https://github.com/othmanehsl/komola" class="project-link github" target="_blank" rel="noopener">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                  <a href="http://mmi22d15.mmi-troyes.fr/komola/" class="project-link demo" target="_blank" rel="noopener">
+                    <ion-icon name="globe-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <div class="project-card">
+                <!-- Image du projet -->
+                <figure class="project-img">
+                  <img src="./assets/images/projects/sae203.png" alt="dsm." loading="lazy">
+                  <div class="project-overlay">
+                    <h3 class="project-title">Shoes.</h3>
+                    <p class="project-category">Web design - Front End</p>
+                  </div>
+                </figure>
+                
+                <!-- Liens du projet -->
+                <div class="project-links">
+                  <a href="https://github.com/othmanehsl/sae203" class="project-link github" target="_blank" rel="noopener">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                  <a href="https://mmi22d15.sae203.ovh" class="project-link demo" target="_blank" rel="noopener">
+                    <ion-icon name="globe-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="graphisme">
+              <div class="project-card">
+                <!-- Image du projet -->
+                <figure class="project-img">
+                  <img src="./assets/images/projects/mockup-min.jpg" alt="metaspark" loading="lazy">
+                  <div class="project-overlay">
+                    <h3 class="project-title">Mockup</h3>
+                    <p class="project-category">Graphisme</p>
+                  </div>
+                </figure>
+                
+                <!-- Liens du projet -->
+                <div class="project-links">
+                  <a href="assets/images/projects/patron_sujet3_Othmane_Houasli.pdf" class="project-link demo" target="_blank" rel="noopener">
+                    <ion-icon name="globe-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="graphisme">
+              <div class="project-card">
+                <!-- Image du projet -->
+                <figure class="project-img">
+                  <img src="./assets/images/projects/perspective_min.jpg" alt="summary" loading="lazy">
+                  <div class="project-overlay">
+                    <h3 class="project-title">Perspective conique</h3>
+                    <p class="project-category">Graphisme</p>
+                  </div>
+                </figure>
+                
+                <!-- Liens du projet -->
+                <div class="project-links">
+                  <a href="assets/images/projects/perspective.jpg" class="project-link demo" target="_blank" rel="noopener">
+                    <ion-icon name="globe-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contactez-moi">
+
+        <header>
+          <h2 class="h2 article-title">Contactez-moi</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-details">
+                <span class="contact-title">Email</span>
+                <span class="contact-value">
+                  <a href="mailto:othmane.houasli.contact@gmail.com" class="contact-link">othmane.houasli.contact@gmail.com</a>
+                </span>
+              </div>
+            </div>
+          
+            <div class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+              <div class="contact-details">
+                <span class="contact-title">Téléphone</span>
+                <span class="contact-value">
+                  <a href="tel:+33753733912" class="contact-link">+33 7 53 73 39 12</a>
+                </span>
+              </div>
+            </div>
+          </div>
+
+
+          <form action="#" class="form" id="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Vous êtes" id="contact-name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Votre adresse mail" id="contact-email" required>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Votre message" id="contact-message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Envoyer</span> 
+            </button>
+            <p class="error_message" id="error-message"></p>
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="./assets/js/contact.js"></script>
+</body>
+
+</html>
